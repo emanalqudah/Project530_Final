@@ -23,7 +23,6 @@ To send encrypted data ,open new VSCode :
 4. Open Wireshark to see that you cannot sniff the encrypted sent data
 
 
-
 ## Installation
 
 To use this project, follow these steps:
