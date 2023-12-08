@@ -10,10 +10,14 @@ This project will  eventually show how Encryption for sensitive Data such as pas
 This code introduces Client- Server  model implementation in python.My Implementation assumes that there is a maximum number of  clients can connect to the server .
 This code does not implement any kind of security measures to prevent attacks against the login system.
 The basic outline of my implementation for the communication module  in Python is :
+
+Open VSCode :
 1. Run the server.py file . 
 2. Run multiple instance of client.py file 
 3. Upon sending data from each client ,the server will recieve the data prompted each client to send data more and more .
 4. 4. Open Wireshark to see that you can sniff the sent data 
+
+
 
 To send encrypted data ,open new VSCode :
 
