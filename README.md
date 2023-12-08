@@ -13,12 +13,14 @@ The basic outline of my implementation for the communication module  in Python i
 1. Run the server.py file . 
 2. Run multiple instance of client.py file 
 3. Upon sending data from each client ,the server will recieve the data prompted each client to send data more and more .
+4. 4. Open Wireshark to see that you can sniff the sent data 
 
 To send encrypted data ,open new VSCode :
 
 1. Run the En_server.py file . 
 2. Run multiple instance of En_client.py file 
-3. Upon sending data from each client ,the server will recieve the data prompted each client to send data more and more .
+3. Upon sending data from each client ,the server will recieve the encrypted data prompted each client to send data more and more .
+4. Open Wireshark to see that you cannot sniff the encrypted sent data
 
 
 
